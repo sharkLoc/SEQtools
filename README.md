@@ -1,7 +1,7 @@
 # SEQtools
 filt and stats PE fastq files
 
-##usage
+#usage
 Usage: SEQtools [options]
 
 	-i	:<char>   fq1 file
