@@ -115,7 +115,7 @@ int main(int argc, char *argv[])
 				//fprintf(stdout,"%s\t%zu\t%zu\t%zu\t%f\t%f\n",read2.line[i],read2.len,read2.nCount,read2.mean_qval,read2.lowQval,read2.nRate);
 			}
 			
-			if(read1.lowQval<qRate && read2.lowQval<qRate && read1.nRate<nR && read2.nRate<nR)
+			if(read1.lowQval<qRate && read2.lowQval<qRate || read1.nRate<nR && read2.nRate<nR)
 			{
 				for(int i=0; i<4; i++)
 				{
