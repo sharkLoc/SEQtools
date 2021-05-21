@@ -1,7 +1,10 @@
 # SEQtools
 filt and stats PE fastq files
 
+>note: this tools have some bugs !
+
 # usage
+```
 Usage: SEQtools [options]
 
 	-i	:<char>   fq1 file
@@ -13,3 +16,4 @@ Usage: SEQtools [options]
 	-o	:<char>   clean fq1 file name
 	-O	:<char>   clean fq2 file name
 	-h	:<char>   show this help
+```
